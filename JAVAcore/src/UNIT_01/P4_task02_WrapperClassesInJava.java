@@ -1,6 +1,6 @@
 package UNIT_01;
 /*
- * the wrapper class in java provides the mechanism to convert primitive into object and obj
+ * the wrapper class in java provides the mechanism to convert primitive into object and obj into primitive.
  * why ?
  * Because we want to use predefined methods of those objects
  * - boolean data types ->Boolean obj; -> obj.toString();
@@ -11,7 +11,7 @@ public class P4_task02_WrapperClassesInJava {
 		int a=20;
 		String s = "" + a + "";
 		
-		Integer i =Integer.valueOf(a);//converting int into integr into explicitly
+		Integer i =Integer.valueOf(a);//converting int into integer into explicitly
 		Integer j= a;//autoboxing, now compiler will write Integer.valueof(a) internally
 		
 	    System.out.println(a + "" +i +"" +j);
@@ -23,10 +23,9 @@ public class P4_task02_WrapperClassesInJava {
 	    
 	    byte b=10;
 	    Byte byteobj=b;
-	    
 	    System.out.println(byteobj);
 	    
-	    //unboxing: Convering Objects to Primitive
+	    //unboxing: Converting Objects to Primitive
 	    byte bytevalue= byteobj;
 	    System.out.println(bytevalue);
 	}
