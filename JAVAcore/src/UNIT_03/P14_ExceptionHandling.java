@@ -7,11 +7,7 @@ know if the exception has occurred or not, but definitely.we could have written 
 //when we compile a java code the compiler is responsible for findinig out the syntactic and symantic issues in the code.
 
 
-/*
- * P14_exceptionHandling.java
- * 1-obj.basicException(){/by zero}
- * 2-obj.handleException
- * */
+
 public class P14_ExceptionHandling{
 
 	public static void main(String[] args) {
@@ -20,9 +16,13 @@ public class P14_ExceptionHandling{
 		//name.inputMismatchException();
 		//name.stackOverFlowError(10);
 		//name.indexOutOfBoundsException();
-		//name.nullPointerException();
 		//name.basicException();
 		//name.multipleCatch();
+//		name.useOfThrow();
+//		name.nullPointerException();
+//		name.useOfThrow()
+//		name.useOfThrows_And_Finally() 
+		
 
 	}
 
@@ -97,9 +97,31 @@ public class P14_ExceptionHandling{
 				System.out.println(e.getMessage());
 			}
 		}
-		void nullPointerException() {}
-		void useOfThrow() {}
-		void useOfThrows_And_Finally() {}
+		void nullPointerException() {
+			try {
+				String s= null;
+				System.out.println(s.length());
+				
+			}
+			catch(NullPointerException e) {
+				System.out.println(e.getMessage());
+			}
+			
+		}
+		void useOfThrow() {
+			if(age<18) {
+				throw new Exception();
+			}
+			else System.out.println("You are allowed to enter\n");
+		}
+		void useOfThrows_And_Finally() {
+			try{useOfThrow(17)
+				}catch(Exception e) {
+					e.printStackTrace();
+				}	
+		}
+		
+		
 	}
 	
 	
