@@ -1,6 +1,6 @@
 package UNIT_01;
 /*
- Variable in Java is a data container that saves the data values during Java program executed
+ Variable in Java is a data container that saves the data values during Java program execution
  
  Types of variables:
  -In Java,there are three types of variables:

@@ -40,13 +40,13 @@ public class P12_Task01_InterfaceInJava implements Animal {
 
 	@Override
 	public void animalSound() {
-		// TODO Auto-generated method stub
+		System.out.println("y\n");
 		
 	}
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		System.out.println("y\n");
 		
 	}
 

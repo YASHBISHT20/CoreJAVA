@@ -30,12 +30,14 @@ abstract class Bike
 		System.out.println("Inside Bike Constructor:"+a+"\n");
 	}
 	
-	abstract void run();
-	
 	void display()
 	{
 		System.out.println("This is display method");
 	}
+	
+	abstract void run();
+	
+	
 }
 
 class Honda4 extends Bike
@@ -77,7 +79,7 @@ final class Super
 
 /*not possible
  
- public class Sub extents Super
+ public class Sub extends Super
  {
  	void display2()
  	{

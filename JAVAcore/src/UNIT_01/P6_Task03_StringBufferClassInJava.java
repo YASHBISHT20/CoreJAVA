@@ -22,13 +22,13 @@ public class P6_Task03_StringBufferClassInJava {
 		
 		//StringBuffer() insert() Method
 		StringBuffer sb2 = new StringBuffer("Hello");
-		sb.ainsert(1,"java"); //now original string is changed
+		sb.insert(1,"java"); //now original string is changed
 		System.out.println(sb2);//prints HJavaello
 		
 		
 		//StringBuffer() replace() Method
 		StringBuffer sb3 = new StringBuffer("Hello");
-		sb3.replace(1,3"java");
+		sb3.replace(1,3,"java");
 		System.out.println(sb3);//prints Hjavalo
 		
 		//StringBuffer() delete() Method

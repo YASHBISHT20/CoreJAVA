@@ -13,7 +13,7 @@ public class P10_Task01_OverloadingAndOverridingInJava {
 		System.out.println(obj.add(4, 6, 7));
 		
 		InheritFirstOne obj2 = new InheritFirstOne();
-		System.out.println(obj2.add(1, 2));
+		System.out.println(obj2.add(1,2));
 		System.out.println(obj2.add(1,2,3));
 	}
 

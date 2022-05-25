@@ -31,8 +31,8 @@ class StringInJava {
 			System.out.println(s.charAt(i));
 		}
 		
-		String first = "Rahul";
-		String second = "Nainwal";
+		String first = "Yash";
+		String second = "Bisht";
 		
 		//Add two stings
 		String third = first + second;
@@ -52,8 +52,8 @@ class StringInJava {
 		 * 
 		 */
 		
-		String fourth = "Rahul";
-		String fifth = new String("Nainwal!");
+		String fourth = "Yash";
+		String fifth = new String("Bisht!");
 		
 	}
 	
@@ -71,7 +71,7 @@ class StringInJava {
 		
 		for(int i = 0;i<ch.length;i++)
 		{
-			System.out.println(ch[i]));
+			System.out.println(ch[i]);
 		}
 		
 		String s1 = new String(ch);
@@ -79,7 +79,7 @@ class StringInJava {
 		
 		//Character Arrays are mutable but Strings are not !
 		ch[0] = 'h';
-		//s1.charAt(0) ='h';
+		// s1.charAt(0) ='h';
 		/*
 		 * Join two Java Strings - +' can be used to appended strings together to form a new string - but not possible in char array
 		 * 
