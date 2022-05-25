@@ -24,28 +24,24 @@ public class P16_MultiThreading {
 //		t1.start();
 //		t2.start();
 
-	}
-	class c1{
-		void show1() {
-			Scanner sc = new Scanner(System.in);
-			int a = sc.nextInt();
-			System.out.println(+a);
-			
 		}
 	}
 
-	class c2{
-		void show2() {
-			for(int i=0;i<10;i++) {
-				System.out.println("hey ");
-			}
+class c1{
+	void show1() {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		System.out.println(+a);
+		
+	}
+}
+class c2{
+	void show2() {
+		for(int i=0;i<10;i++) {
+			System.out.println("hey ");
 		}
 	}
-	
-	
-	}
-
-
+}
 
 //class t1 extends Thread{
 //	public void run() {
